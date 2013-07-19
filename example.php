@@ -10,7 +10,7 @@
 <body>
 
 <?php if( !isset( $_GET['image'] ) ): ?>
-<form action="" method="post" enctype="multipart/form-data">
+<form action="uploader.php" method="post" enctype="multipart/form-data">
 	<input type="file" name="image" id="image" />
 	
 	<input type="submit" name="send" id="send" value="Subir Imagen" />
